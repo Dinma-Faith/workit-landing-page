@@ -1,29 +1,43 @@
 :root {
     /* --primary-color*/
     --purple-900-color: hsl(273, 85%, 13%);
+
     /* --text-color */
     --purple-500-color: hsl(271, 12%, 34%);
     --purple-100-color: hsl(276, 100%, 99%);
+
     /* --secondary-color: #44FFA1; */
     --green-color: hsl(150, 100%, 63%);
+    
     /* --white */
     --white-color: hsl(0, 0%, 100%);
 
-    --font-heading: 'Fraunces', serif;
+    /* --font-heading: 'Fraunces', serif; */
     --font-body: 'Manrope', sans-serif;
 }
 
 /* Global styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
+
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: var(--font-body);
-    color: var(--text-color);
     line-height: 1.6;
     background-color: var(--white);
 }
 
-/* h1 {
+h1 {
     font-family: var(--font-heading);
-} */
+}
+
+img {
+    /* display: block; */
+    max-width: 100%;
+    height: auto;
+}
