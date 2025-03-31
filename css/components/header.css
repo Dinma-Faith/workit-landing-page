@@ -1,19 +1,14 @@
 .header {
-    position: absolute; 
-    top: 85px;
+    position: relative; 
+    bottom: 165px;
     left: 0;
     width: 100%;
     background-color: var(--purple-900-color);
     color: var(--white-color);
     text-align: center;
     overflow: hidden;
-    z-index: 2;
-}
-
-.header-content {
-    background-color: var(--purple-900-color);
-    position: relative;
-    z-index: 2;
+    /* z-index: 2; */
+    padding-bottom: 40px;
 }
 
 .nav {
