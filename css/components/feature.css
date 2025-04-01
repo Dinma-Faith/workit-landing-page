@@ -1,44 +1,84 @@
-.feature-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* width: 40px;
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 20px;
+  background-color: var(--purple-100-color);
+  /* width: 40px;
     height: 40px;
-    background-color: var(--green-color);
+    
     color: var(--white-color);
-    font-weight: bold;
-    font-size: 1.2rem;
+    
     border-radius: 50%; 
     margin-bottom: 10px; */
 }
 
-.feature-number {
-    /* display: inline-block; */
-    width: 40px;
-    height: 40px;
-    border: 2px solid var(--purple-900-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: var(--purple-900-color); /* Text color same as border */
-    font-size: 1.2rem;
+.features h2 {
+  font-family: var(--font-heading);
 }
 
+.feature h2,
+.paragraph-text {
+  color: var(--purple-900-color);
+}
 
-/* .feature-container {
-    margin-top: 250px;
-    text-align: center;
-} */
+p {
+  font-size: 16px;
+  line-height: 180%;
+}
 
-/* .feature-number {
-    border: 50%;
-    width: 40px;  Adjust size
-  height: 40px;  Must match width for a perfect circle
-  border: 1px solid #000;  Border color
-  border-radius: 50%;Makes it circular
+.feature.feature-number {
+  color: var(--purple-500-color);
+}
+
+.feature,
+.founder-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.founder-content p {
+  padding-inline: 20px;
+}
+
+.feature-number {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--purple-900-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
-} */
+  font-size: 1.2rem;
+}
 
+.founder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 20px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+}
+
+.founder-image {
+  display: block;
+  max-width: 50%;
+}
+
+.founder-content {
+  position: relative;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  background-color: var(--purple-900-color);
+  color: var(--white-color);
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
